@@ -1511,15 +1511,13 @@
 		text-align: justify;
 	}
 
-	p.centered {
-		margin: 0 0 2em 0;
+	.centered {
 		text-align: center;
 	}
 	p.small-text {
 		font-size: 70%;
 	}
 
-	}
 	p.horaire {
 		text-align: center;
 		color: #72378C;
@@ -2656,6 +2654,8 @@
 		margin-bottom: 3em;
 	}
 
+	
+
 		.spotlight .image {
 			width: 40%;
 		}
@@ -3217,6 +3217,16 @@
 			.wrapper.style2 .spotlight {
 				background-color: white;
 				border-bottom-color: rgba(144, 144, 144, 0.25);
+			}
+			.wrapper.style2 .spotlight.alert {
+				background-color: crimson;
+				color: white;
+			}
+			.wrapper.style2 .alert strong, .wrapper.style2 .alert b { 
+				color: white;
+			}
+			.wrapper.style2 .alert .main-block {
+				font-size: 0.8em;
 			}
 
 			.wrapper.style2.alt {
