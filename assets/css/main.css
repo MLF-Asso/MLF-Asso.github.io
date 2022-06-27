@@ -2674,6 +2674,11 @@
 			width: 100%;
 		}
 
+		.spotlight .synops{
+			border: #000000 dashed 1px;
+			padding: 20px;
+		}
+
 		@media screen and (max-width: 980px) {
 
 			.spotlight .image {
@@ -3576,7 +3581,7 @@
 
 		/*#endregion*/
 
-		.tabcontent {
-			display: none;
-		}
+.tabcontent {
+	display: none;
+}
 		
